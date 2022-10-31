@@ -1,7 +1,7 @@
 /* To quickly navigate this stylesheet, search for section using all uppercase letter */
 
 /* BODY */
-body {
+.bodywrapper {
     grid-template-areas:
     "head head"
     "main main"
