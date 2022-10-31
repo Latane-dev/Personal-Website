@@ -1,9 +1,44 @@
+/* To quickly navigate this stylesheet, search for section using all uppercase letter */
+
+/* BODY */
 body {
     grid-template-areas:
     "head head"
-    "bio  pic"
-    "proj proj"
+    "main main"
+    "main main"
     "foot foot";
-    grid-template-rows: 50px auto auto 50px;
+    grid-template-rows: 60px auto auto 60px;
     grid-template-columns: 50% 50%;
+}
+
+
+header,
+main,
+footer {
+    padding: 10px;
+}
+
+
+/* HEADER */
+header {
+    grid-area: head;
+    display: flex;
+    justify-content: space-around;
+    align-items: auto;
+    border-bottom: 1px solid #000;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* MAIN */
+main {
+    grid-area: main;
+}
+
+/*FOOTER*/
+footer {
+    grid-area: foot;
 }
