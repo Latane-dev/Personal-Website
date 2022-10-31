@@ -1,0 +1,9 @@
+body {
+    grid-template-areas:
+    "head head"
+    "bio  pic"
+    "proj proj"
+    "foot foot";
+    grid-template-rows: 50px auto auto 50px;
+    grid-template-columns: 50% 50%;
+}

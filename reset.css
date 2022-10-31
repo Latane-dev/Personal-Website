@@ -5,7 +5,7 @@
 * {
 	box-sizing: border-box;
 }
-
+/* sizing reset so body acts like root element and then can space content how I like */
 body {
 	min-height: 100vh;
 	width: 100%;
