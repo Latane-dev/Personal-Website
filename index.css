@@ -1,44 +1,59 @@
 /* To quickly navigate this stylesheet, search for section using all uppercase letter */
 
 /* BODY */
-.bodywrapper {
-    grid-template-areas:
-    "head head"
-    "main main"
-    "main main"
-    "foot foot";
-    grid-template-rows: 60px 1fr 1fr 60px;
-    grid-template-columns: 50% 50%;
-}
-
-
-header,
-main,
-footer {
-    padding: 10px;
-}
 
 
 /* HEADER */
-header {
-    grid-area: head;
+.header-banner {
     display: flex;
-    justify-content: space-around;
-    align-items: auto;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #000;
+    height: 80px;
+}
+
+#logo {
+    margin-left: 20px;
+}
+
+.header-banner h1 {
+    font-size: 32px;
+    font-family: sans-serif;
+}
+
+nav {
+    display: inline-flex;
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
-    display: inline-block;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 /* MAIN */
 main {
-    grid-area: main;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bio-pic {
+    width: 300px;
+    height: 300px;
+}
+
+.biowrapper {
+    text-align: center;
+}
+#bio {
+    display: flex;
+    justify-content: space-around;
 }
 
 /*FOOTER*/
 footer {
-    grid-area: foot;
+
 }
