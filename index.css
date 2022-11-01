@@ -172,6 +172,13 @@ footer {
 
 }
 
-footer p {
-    margin: 20px 10px;
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.contact img {
+    height: 60px;
+    width: 70px;
 }
