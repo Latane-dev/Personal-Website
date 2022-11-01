@@ -190,12 +190,12 @@ footer {
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 600px !important;
+      max-width: 600px;
     }
 
     header {
         height: 60px;
-        max-width: 600px !important;
+        max-width: 600px;
     }
 
     .header-banner {
@@ -211,7 +211,11 @@ footer {
     }
 
     nav {
-        display: none !important;
+        display: none;
+    }
+
+    nav a {
+        display: none;
     }
 
     main {
@@ -224,10 +228,10 @@ footer {
     }
 
     .mission-banner h2 {
-        display: none !important;
+        display: none;
     }
 
     h3 {
-        font-size: 13px !important;
+        font-size: 13px;
     }
   }
