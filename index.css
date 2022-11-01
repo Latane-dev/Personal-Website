@@ -184,27 +184,4 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
 
-    header {
-        height: 60px;
-        max-width: 600px;
-    }
-
-    .header-banner h1 {
-        font-size: 8vw;
-    }
-
-    .logowrap {
-        display: none;
-    }
-
-    nav {
-        display: none;
-    }
-  }
