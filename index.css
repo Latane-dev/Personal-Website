@@ -31,21 +31,22 @@ header {
 }
 
 .logowrap {
-    width: 20%;
     display: flex;
     justify-content: center;
 }
 
 #logo {
-    margin-left: 20px;
     height: 60px;
     width: 70px;
 }
 
 .header-banner h1 {
+    margin-left: 20px;
     color: #fff;
     font-size: 32px;
     font-weight: 200;
+    width: 20%;
+    text-align: center;
 }
 
 nav {
@@ -124,27 +125,37 @@ main {
 }
 
 .background-bio {
-    background-color: #fff;
-    opacity: 0.5;
-    border-radius: 400px;
-    height: 200px;
-    width: 600px;
+    background-color: #000;
+    opacity: 0.3;
+    height: 70%;
+    width: 100%;
     position: absolute;
-    border: 5px solid;
-    border-image: linear-gradient(#fff, #000);
+}
+
+.background-highlight {
+    width: 650px;
+    height: 800px;
+    border-radius: 900px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
 }
 
 .biowrapper p {
     text-align: center;
-    font-size: 18px;
+    font-size: 19px;
     border-radius: 40px;
     z-index: 2;
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .bio-header {
+    color: #fff;
     height: 40px;
     border-radius: 40px;
     z-index: 2;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h3 {
@@ -156,7 +167,7 @@ h3 {
 
 .project-header {
     color: #fff;
-    margin-top: 200px;
+    margin-top: 400px;
     background-color: #000;
 }
 .projectwrapper {
