@@ -263,9 +263,13 @@ footer {
         width: 100%;
     }
 
+    .background-bio {
+        display: none;
+    }
+
     .background-highlight {
-        width: 100px !important;
-        height: 150px;
+        width: 400px !important;
+        height: 550px;
     }
 
     .projectwrapper {
