@@ -291,13 +291,12 @@ footer {
     .projectwrapper {
         flex-direction: column;
         margin: 0px;
+        align-items: center !important;
     }
 
     .project-box {
         width: 80%;
         height: 400px;
-        align-items: center !important;
-        margin-left: 10px;
     }
 
     footer {
