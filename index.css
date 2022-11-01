@@ -99,10 +99,6 @@ main {
     text-transform: uppercase;
 }
 
-.mobile-slogan {
-    display: none;
-}
-
 #bio {
     display: flex;
     justify-content: center;
@@ -121,6 +117,7 @@ main {
 }
 
 .biowrapper p {
+    
     border-radius: 40px;
 }
 
@@ -132,6 +129,7 @@ main {
 }
 
 .bio-header {
+    
     height: 40px;
     width: 80px;
     border-radius: 40px;
@@ -212,7 +210,7 @@ footer {
     }
 
     .logowrap {
-        display: none !important;
+        display: none;
     }
 
     nav {
@@ -229,17 +227,14 @@ footer {
     }
 
     .mission-banner {
-        display: none !important;
+        top: 90% !important;
     }
-    
-    .mobile-slogan {
-        display: block !important;
-        text-align: center;
+    .mission-banner h2 {
+        display: none !important;
     }
 
     h3 {
         font-size: 13px !important;
-        padding-bottom: 0 !important;
     }
 
     #bio {
@@ -250,7 +245,7 @@ footer {
     }
 
     .bio-header {
-        font-size: 13px !important;
+        font-size: 13px;
     }
 
     .projectwrapper {
