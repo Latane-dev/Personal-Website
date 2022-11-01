@@ -238,12 +238,53 @@ footer {
   }
 
   @media only screen and (max-width: 950px) {
+
+    .header-banner h1 {
+        font-size: 24px;
+        width: 100%;
+        justify-self: center;
+    }
     
     #mission {
         margin-top: 25%;
     }
 
     nav {
+        display: none !important;
+    }
+    
+    .biowrapper {
+        width: 100%;
+    }
+
+    .biowrapper p {
+        font-size: 14px;
+        text-shadow: none;
+        width: 100%;
+    }
+
+    .background-highlight {
+        width: 100px !important;
+        height: 150px;
+    }
+
+    .projectwrapper {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .project-box {
+        width: 80%;
+        height: 400px;
+        align-items: center !important;
+        clear: left;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .phone {
         display: none !important;
     }
   }
